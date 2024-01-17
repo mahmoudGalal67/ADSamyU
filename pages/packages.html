@@ -216,451 +216,837 @@
               </p>
             </div>
           </div>
-          <div class="plans">
-            <button class="custom-blue-buttom">Plan 1</button>
-            <button class="custom-blue-buttom">Plan 2</button>
-            <button class="custom-blue-buttom active">Plan 3</button>
-            <button class="custom-blue-buttom active">Plan 4</button>
+          <ul
+            style="border: none"
+            class="nav nav-tabs plans"
+            id="myTab"
+            role="tablist"
+          >
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link custom-blue-buttom active"
+                id="Plan-1-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#plan-1"
+                type="button"
+                role="tab"
+                aria-controls="Plan-1"
+                aria-selected="true"
+              >
+                Plan 1
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link custom-blue-buttom"
+                id="Plan-2-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#plan-2"
+                type="button"
+                role="tab"
+                aria-controls="Plan-2"
+                aria-selected="false"
+              >
+                Plan 2
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link custom-blue-buttom"
+                id="Plan-3-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#plan-3"
+                type="button"
+                role="tab"
+                aria-controls="Plan-3"
+                aria-selected="false"
+              >
+                Plan 3
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link custom-blue-buttom"
+                id="Plan-4-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#plan-4"
+                type="button"
+                role="tab"
+                aria-controls="Plan-4"
+                aria-selected="false"
+              >
+                Plan 4
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="plan-1"
+              role="tabpanel"
+              aria-labelledby="plan-1-tab"
+            >
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse1"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapse1"
+                    >
+                      What is 360 Marketing?
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse1"
+                    class="accordion-collapse collapse show"
+                  >
+                    <div class="accordion-body">
+                      A 360 marketing strategy is a comprehensive plan that
+                      focuses on reaching the target audience from multiple
+                      platforms and channels. This type of strategy generally
+                      combines both traditional marketing and digital marketing
+                      channels as it infuses within the entire customer journey.
+                      Basically, a 360 marketing strategy will ensure that
+                      customers have a positive experience of communication
+                      regardless of their location or what device they may or
+                      may not be using. For instance, you may see a Coca-Cola ad
+                      on a billboard on your way to work. On your lunch break,
+                      you may see another ad while scrolling through Facebook.
+                      When you get home and sit down to relax and watch
+                      television, you may encounter yet another (but more
+                      thorough) advertisement.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse2"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapse2"
+                    >
+                      <input type="checkbox" style="margin-right: 15px" /> Web
+                      Design & Development
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse2"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse3"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapse3"
+                    >
+                      <input type="checkbox" style="margin-right: 15px" /> Web
+                      Branding & Positioning
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse3"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse4"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapse4"
+                    >
+                      <input type="checkbox" style="margin-right: 15px" /> Web
+                      Social Media Management
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse4"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse5"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapse5"
+                    >
+                      <input type="checkbox" style="margin-right: 15px" /> Web
+                      SEO, Google Business, Local Business
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse5"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse6"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapse6"
+                    >
+                      <input type="checkbox" style="margin-right: 15px" />
+                      photography & Videography
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse6"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse7"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapse7"
+                    >
+                      <input type="checkbox" style="margin-right: 15px" />
+                      Mobile Application
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse7"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse8"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapse8"
+                    >
+                      <input type="checkbox" style="margin-right: 15px" />
+                      Marketing Strategy
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse8"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse9"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapse9"
+                    >
+                      <input type="checkbox" style="margin-right: 15px" />
+                      Social Media Advertising
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse9"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse10"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapse10"
+                    >
+                      <input type="checkbox" style="margin-right: 15px" /> Email
+                      Marketing, Whatsapp Marketing
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse10"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse11"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapse11"
+                    >
+                      <input type="checkbox" style="margin-right: 15px" />
+                      Content Marketing
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse11"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse12"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapse12"
+                    >
+                      <input type="checkbox" style="margin-right: 15px" /> Email
+                      Marketing, Whatsapp Marketing
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse12"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse13"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapse13"
+                    >
+                      <input type="checkbox" style="margin-right: 15px" /> Lead
+                      Generation
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse13"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse14"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapse14"
+                    >
+                      <input type="checkbox" style="margin-right: 15px" />
+                      Public Relations (PR)
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse14"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade show"
+              id="plan-2"
+              role="tabpanel"
+              aria-labelledby="plan-2-tab"
+            >
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse1"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapse1"
+                    >
+                      What is 360 Marketing? (paln 2)
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse1"
+                    class="accordion-collapse collapse show"
+                  >
+                    <div class="accordion-body">
+                      A 360 marketing strategy is a comprehensive plan that
+                      focuses on reaching the target audience from multiple
+                      platforms and channels. This type of strategy generally
+                      combines both traditional marketing and digital marketing
+                      channels as it infuses within the entire customer journey.
+                      Basically, a 360 marketing strategy will ensure that
+                      customers have a positive experience of communication
+                      regardless of their location or what device they may or
+                      may not be using. For instance, you may see a Coca-Cola ad
+                      on a billboard on your way to work. On your lunch break,
+                      you may see another ad while scrolling through Facebook.
+                      When you get home and sit down to relax and watch
+                      television, you may encounter yet another (but more
+                      thorough) advertisement.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse2"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapse2"
+                    >
+                      <input type="checkbox" style="margin-right: 15px" /> Web
+                      Design & Development
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse2"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse3"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapse3"
+                    >
+                      <input type="checkbox" style="margin-right: 15px" /> Web
+                      Branding & Positioning
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse3"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade show"
+              id="plan-3"
+              role="tabpanel"
+              aria-labelledby="plan-3-tab"
+            >
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse1"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapse1"
+                    >
+                      What is 360 Marketing? (paln 3)
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse1"
+                    class="accordion-collapse collapse show"
+                  >
+                    <div class="accordion-body">
+                      A 360 marketing strategy is a comprehensive plan that
+                      focuses on reaching the target audience from multiple
+                      platforms and channels. This type of strategy generally
+                      combines both traditional marketing and digital marketing
+                      channels as it infuses within the entire customer journey.
+                      Basically, a 360 marketing strategy will ensure that
+                      customers have a positive experience of communication
+                      regardless of their location or what device they may or
+                      may not be using. For instance, you may see a Coca-Cola ad
+                      on a billboard on your way to work. On your lunch break,
+                      you may see another ad while scrolling through Facebook.
+                      When you get home and sit down to relax and watch
+                      television, you may encounter yet another (but more
+                      thorough) advertisement.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse2"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapse2"
+                    >
+                      <input type="checkbox" style="margin-right: 15px" /> Web
+                      Design & Development
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse2"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse3"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapse3"
+                    >
+                      <input type="checkbox" style="margin-right: 15px" /> Web
+                      Branding & Positioning
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse3"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade show"
+              id="plan-4"
+              role="tabpanel"
+              aria-labelledby="plan-4-tab"
+            >
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse1"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapse1"
+                    >
+                      What is 360 Marketing? (paln 4)
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse1"
+                    class="accordion-collapse collapse show"
+                  >
+                    <div class="accordion-body">
+                      A 360 marketing strategy is a comprehensive plan that
+                      focuses on reaching the target audience from multiple
+                      platforms and channels. This type of strategy generally
+                      combines both traditional marketing and digital marketing
+                      channels as it infuses within the entire customer journey.
+                      Basically, a 360 marketing strategy will ensure that
+                      customers have a positive experience of communication
+                      regardless of their location or what device they may or
+                      may not be using. For instance, you may see a Coca-Cola ad
+                      on a billboard on your way to work. On your lunch break,
+                      you may see another ad while scrolling through Facebook.
+                      When you get home and sit down to relax and watch
+                      television, you may encounter yet another (but more
+                      thorough) advertisement.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse2"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapse2"
+                    >
+                      <input type="checkbox" style="margin-right: 15px" /> Web
+                      Design & Development
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse2"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapse3"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapse3"
+                    >
+                      <input type="checkbox" style="margin-right: 15px" /> Web
+                      Branding & Positioning
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapse3"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="accordion" id="accordionPanelsStayOpenExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapse1"
-                  aria-expanded="true"
-                  aria-controls="panelsStayOpen-collapse1"
-                >
-                  What is 360 Marketing?
-                </button>
-              </h2>
-              <div
-                id="panelsStayOpen-collapse1"
-                class="accordion-collapse collapse show"
-              >
-                <div class="accordion-body">
-                  A 360 marketing strategy is a comprehensive plan that focuses
-                  on reaching the target audience from multiple platforms and
-                  channels. This type of strategy generally combines both
-                  traditional marketing and digital marketing channels as it
-                  infuses within the entire customer journey. Basically, a 360
-                  marketing strategy will ensure that customers have a positive
-                  experience of communication regardless of their location or
-                  what device they may or may not be using. For instance, you
-                  may see a Coca-Cola ad on a billboard on your way to work. On
-                  your lunch break, you may see another ad while scrolling
-                  through Facebook. When you get home and sit down to relax and
-                  watch television, you may encounter yet another (but more
-                  thorough) advertisement.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapse2"
-                  aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapse2"
-                >
-                  <input type="checkbox" style="margin-right: 15px" /> Web
-                  Design & Development
-                </button>
-              </h2>
-              <div
-                id="panelsStayOpen-collapse2"
-                class="accordion-collapse collapse"
-              >
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapse3"
-                  aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapse3"
-                >
-                  <input type="checkbox" style="margin-right: 15px" /> Web
-                  Branding & Positioning
-                </button>
-              </h2>
-              <div
-                id="panelsStayOpen-collapse3"
-                class="accordion-collapse collapse"
-              >
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapse4"
-                  aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapse4"
-                >
-                  <input type="checkbox" style="margin-right: 15px" /> Web
-                  Social Media Management
-                </button>
-              </h2>
-              <div
-                id="panelsStayOpen-collapse4"
-                class="accordion-collapse collapse"
-              >
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapse5"
-                  aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapse5"
-                >
-                  <input type="checkbox" style="margin-right: 15px" /> Web SEO,
-                  Google Business, Local Business
-                </button>
-              </h2>
-              <div
-                id="panelsStayOpen-collapse5"
-                class="accordion-collapse collapse"
-              >
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapse6"
-                  aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapse6"
-                >
-                  <input type="checkbox" style="margin-right: 15px" />
-                  photography & Videography
-                </button>
-              </h2>
-              <div
-                id="panelsStayOpen-collapse6"
-                class="accordion-collapse collapse"
-              >
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapse7"
-                  aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapse7"
-                >
-                  <input type="checkbox" style="margin-right: 15px" /> Mobile
-                  Application
-                </button>
-              </h2>
-              <div
-                id="panelsStayOpen-collapse7"
-                class="accordion-collapse collapse"
-              >
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapse8"
-                  aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapse8"
-                >
-                  <input type="checkbox" style="margin-right: 15px" /> Marketing
-                  Strategy
-                </button>
-              </h2>
-              <div
-                id="panelsStayOpen-collapse8"
-                class="accordion-collapse collapse"
-              >
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapse9"
-                  aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapse9"
-                >
-                  <input type="checkbox" style="margin-right: 15px" /> Social
-                  Media Advertising
-                </button>
-              </h2>
-              <div
-                id="panelsStayOpen-collapse9"
-                class="accordion-collapse collapse"
-              >
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapse10"
-                  aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapse10"
-                >
-                  <input type="checkbox" style="margin-right: 15px" /> Email
-                  Marketing, Whatsapp Marketing
-                </button>
-              </h2>
-              <div
-                id="panelsStayOpen-collapse10"
-                class="accordion-collapse collapse"
-              >
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapse11"
-                  aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapse11"
-                >
-                  <input type="checkbox" style="margin-right: 15px" /> Content
-                  Marketing
-                </button>
-              </h2>
-              <div
-                id="panelsStayOpen-collapse11"
-                class="accordion-collapse collapse"
-              >
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapse12"
-                  aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapse12"
-                >
-                  <input type="checkbox" style="margin-right: 15px" /> Email
-                  Marketing, Whatsapp Marketing
-                </button>
-              </h2>
-              <div
-                id="panelsStayOpen-collapse12"
-                class="accordion-collapse collapse"
-              >
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapse13"
-                  aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapse13"
-                >
-                  <input type="checkbox" style="margin-right: 15px" /> Lead
-                  Generation
-                </button>
-              </h2>
-              <div
-                id="panelsStayOpen-collapse13"
-                class="accordion-collapse collapse"
-              >
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapse14"
-                  aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapse14"
-                >
-                  <input type="checkbox" style="margin-right: 15px" /> Public
-                  Relations (PR)
-                </button>
-              </h2>
-              <div
-                id="panelsStayOpen-collapse14"
-                class="accordion-collapse collapse"
-              >
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
-              </div>
-            </div>
-          </div>
+
           <div class="submit-buttons">
             <btton class="subscribe">subscribe </btton>
             <btton class="total"> total: $ 505 </btton>
